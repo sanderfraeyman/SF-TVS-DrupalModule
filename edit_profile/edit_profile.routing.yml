@@ -1,0 +1,7 @@
+edit-profile.user:
+  path: '/user/%user/edit-profile'
+  defaults:
+    _controller: '\Drupal\edit_profile\Controller\ProfileController::userOverview'
+    _title: 'Edit profile'
+  requirements: 
+    #_permission: 'edit user profile'
