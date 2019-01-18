@@ -1,0 +1,4 @@
+name: Edit profile
+description: Creates separate Edit account and Edit profile tabs for each user, with custom user fields configured under Edit profile.
+type: module
+core: 8.x
