@@ -1,0 +1,3 @@
+administer edit_profile settings:
+  title: 'Administer edit_profile Settings'
+  description: 'Edits the profile of the current active user.'

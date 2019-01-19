@@ -1,0 +1,6 @@
+edit_profile.link:
+    title: 'Edit_profile'
+    description: 'Edit a profile with this module'
+    route_name: edit_profile.routing 
+    parent: system.admin_structure
+    ;route_name voegt bij 'structure' een tab toe voor de module indien dit een oplossing zou zijn op de tab te bekomen

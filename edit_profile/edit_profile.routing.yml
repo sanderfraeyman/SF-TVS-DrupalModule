@@ -1,14 +1,7 @@
-edit-profile.menu:
-  path: '/user/%user/edit-profile'
-  defaults:
-    _controller: '\Drupal\edit_profile\Controller\ProfileController::userOverview'
-    _title: 'Edit profile'
-  requirements: 
-    #_permission: 'edit user profile'
-
-edit-profile.form:
-  #path: ?
-  defaults:
-    _form: '\Drupal\edit_profile\Form\EditProfileForm'
-    _title: 'Edit profile'
-    
+edit_profile.form:
+  path: 'admin/config/edit_profile'
+  defaults: 
+    _title: 'Edit profile S&T'
+    _form: '\Drupal\src\Form\EditProfile'
+  requirements:
+    _permission: 'acces administration pages'

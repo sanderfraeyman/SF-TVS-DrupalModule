@@ -1,4 +1,7 @@
-name: Edit profile
-description: Creates separate Edit account and Edit profile tabs for each user, with custom user fields configured under Edit profile.
-type: module
+name: 'Edit profile'
+description: 'Creates separate "Edit account" and "Edit profile" tabs for each user, with custom user fields configured under "Edit profile".
+Aangepast door Thymon en Sander'
 core: 8.x
+configure: edit_profile.form
+type: module
+package: edit
