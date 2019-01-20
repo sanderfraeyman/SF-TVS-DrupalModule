@@ -1,7 +1,15 @@
+edit_profile.menu:
+  path: 'user/{user}/edit_profile'
+  defaults: 
+    _title: 'Edit profile'
+    _controller: '\Drupal\src\Controller\ProfileController::profileOverview'
+  requirements:
+    #uid = uid in route
+
 edit_profile.form:
   path: 'admin/config/edit_profile'
   defaults: 
-    _title: 'Edit profile S&T'
+    _title: 'Edit profile'
     _form: '\Drupal\src\Form\EditProfile'
   requirements:
     _permission: 'acces administration pages'
